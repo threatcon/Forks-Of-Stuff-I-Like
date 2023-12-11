@@ -1,0 +1,27 @@
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    display: block;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+a {
+    color: red;
+    text-decoration: none;   
+}
+
+a:hover {
+    text-decoration: underline;   
+}
+
+table {
+    border: 1px #777 solid;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+table td, table th {
+    border: 1px #777 solid;
+    padding: 6px 10px;
+}

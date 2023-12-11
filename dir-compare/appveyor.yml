@@ -1,0 +1,53 @@
+branches:
+  only:
+    - master
+image:
+  - Visual Studio 2019
+  - Ubuntu
+  - macOS
+init:
+  - git config --global core.autocrlf true
+
+environment:
+  matrix:
+    - nodejs_version: 16
+    - nodejs_version: 15
+    - nodejs_version: 14
+    - nodejs_version: 13
+    - nodejs_version: 12
+    - nodejs_version: 11
+    - nodejs_version: 10
+
+for:
+  - matrix:
+      only:
+        - image: Visual Studio 2019
+    install:
+      - ps: Install-Product node $env:nodejs_version
+    test_script:
+      - node --version
+      - npm --version
+      - npm test
+
+  - matrix:
+      only:
+        - image: macOS
+    install:
+      - nvm use $nodejs_version
+    test_script:
+      - node --version
+      - npm --version
+      - npm test
+
+  - matrix:
+      only:
+        - image: Ubuntu
+    install:
+      - nvm use $nodejs_version
+    test_script:
+      - node --version
+      - npm --version
+      - if [[ ${nodejs_version} != 16 ]]; then npm run test; fi;
+      - if [[ ${nodejs_version} == 16 ]]; then npm run coverage; npx codecov; fi;
+
+build: off

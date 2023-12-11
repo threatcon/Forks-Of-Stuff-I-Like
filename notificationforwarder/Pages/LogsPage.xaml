@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="Notification_Forwarder.Pages.LogsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Notification_Forwarder.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded" Unloaded="Page_Unloaded"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="Grid_Default" BorderThickness="5" BorderBrush="Transparent">
+        <TextBlock x:Name="TextBlock_Loading" x:Uid="NotificationsPage_Loading" Visibility="Collapsed" Text="Loading..." HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <RichTextBlock x:Name="RichTextBlock_Logs" FontSize="15" FontWeight="SemiBold" TextWrapping="Wrap" FontFamily="Courier New" Visibility="Collapsed"/>
+    </Grid>
+</Page>

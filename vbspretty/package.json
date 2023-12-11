@@ -1,0 +1,29 @@
+{
+  "name": "vbspretty",
+  "version": "0.0.3",
+  "description": "A VBScript parser and beautifier",
+  "main": "./src/vbspretty",
+  "bin": {
+    "vbspretty": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenilsondc/vbspretty.git"
+  },
+  "keywords": [
+    "vbs",
+    "vbscript",
+    "parser",
+    "beautifier",
+    "formatter"
+  ],
+  "author": "Lenilson de Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lenilsondc/vbspretty/issues"
+  },
+  "homepage": "https://github.com/lenilsondc/vbspretty#readme"
+}

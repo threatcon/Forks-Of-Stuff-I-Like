@@ -1,0 +1,20 @@
+{
+    "comments": {
+        // symbol used for single line comment. Remove this entry if your language does not support line comments
+        // used here to allow quick commenting/uncommenting of lines.
+        "lineComment": "!",
+    },
+    // This works nicely.
+    "folding": {
+        "markers": {
+            "start": "^#BEGIN_COMP",
+            "end": "^#END_COMP"
+        }
+    },
+    // This is mostly for show.
+    "autoClosingPairs": [
+        ["#BEGIN_COMP SC", "\n#END_COMP SC"],
+        ["#BEGIN_COMP IH", "\n#END_COMP IH"],
+        ["#BEGIN_COMP GM", "\n#END_COMP GM"],
+    ],
+}

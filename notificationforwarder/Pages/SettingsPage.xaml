@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="Notification_Forwarder.Pages.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Notification_Forwarder.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <Grid>
+        <StackPanel Margin="10,10,10,10">
+            <TextBlock x:Uid="SettingsPage_Header" Text="Settings" FontSize="25" TextWrapping="Wrap"/>
+            <ToggleSwitch x:Name="ToggleSwitch_DisplayPackageName" Margin="0,5,0,0" x:Uid="ToggleSwitch_DisplayPackageName" Header="Display app package name" Toggled="ToggleSwitch_DisplayPackageName_Toggled"/>
+            <ToggleSwitch x:Name="ToggleSwitch_EnableForwarder" x:Uid="ToggleSwitch_EnableForwarder" Header="Enable forwarder" Toggled="ToggleSwitch_EnableForwarder_Toggled"/>
+            <ToggleSwitch x:Name="ToggleSwitch_MuteNewApps" x:Uid="ToggleSwitch_MuteNewApps" Header="Mute new apps" Toggled="ToggleSwitch_MuteNewApps_Toggled"/>
+            <HyperlinkButton x:Uid="HyperlinkButton_SeeApps" Click="HyperlinkButton_Click" Content="Manage which apps to forward"/>
+            <HyperlinkButton x:Uid="HyperlinkButton_ManageEndPoints" Click="HyperlinkButton_Click_1" Content="Manage forward targets"/>
+            <HyperlinkButton x:Uid="HyperlinkButton_DumpSettings" Click="HyperlinkButton_Click_2" Content="Dump settings as JSON"/>
+        </StackPanel>
+        
+        
+        
+        
+        
+        
+    </Grid>
+</Page>

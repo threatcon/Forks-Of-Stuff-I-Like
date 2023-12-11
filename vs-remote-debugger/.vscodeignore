@@ -1,0 +1,14 @@
+.vscode/**
+.vscode-test/**
+out/src/plugins/test.*
+out/test/**
+test/**
+sdk/**
+src/**
+img/**
+**/*.map
+.gitignore
+.npmignore
+tsconfig.json
+vsc-extension-quickstart.md
+pushall.sh

@@ -1,0 +1,41 @@
+{
+  "name": "excel-xvba",
+  "version": "1.0.3b",
+  "description": "Excel Library for Read, manipulate and write spreadsheet. (Whith Auto-Completion)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development --watch "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aeraphe/ExcelXvba.git"
+  },
+  "keywords": [
+    "xvba",
+    "vba",
+    "excel",
+    "win32",
+    "ol32",
+    "word",
+    "powerpoint"
+  ],
+  "author": "Alberto Eduardo de Castro Oliveira",
+  "email": "albeto.aeraphe@gmail.com",
+  "homepage": "www.xvba.dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aeraphe/ExcelXvba/issues"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "dotenv": "^10.0.0",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "xvba-com": "^1.0.3-b"
+  }
+}

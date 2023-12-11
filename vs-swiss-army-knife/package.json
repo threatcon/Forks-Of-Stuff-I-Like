@@ -1,0 +1,57 @@
+{
+  "name": "vs-swiss-army-knife",
+  "displayName": "Swiss Army Knife",
+  "description": "A meta package for Visual Studio Code with useful and popular extensions.",
+  "version": "1.0.3",
+  "publisher": "mkloubert",
+  "engines": {
+    "vscode": "^1.6.0"
+  },
+  "categories": [
+    "Other",
+    "Extension Packs"
+  ],
+  "keywords": [
+    "Extensions",
+    "Pack",
+    "Swiss",
+    "Army",
+    "Knife"
+  ],
+  "icon": "icon.png",
+  "homepage": "https://github.com/mkloubert/vs-swiss-army-knife/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/mkloubert/vs-swiss-army-knife/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkloubert/vs-swiss-army-knife"
+  },
+  "extensionDependencies": [
+    "alefragnani.Bookmarks",
+    "alefragnani.project-manager",
+    "bbenoist.vagrant",
+    "christian-kohler.path-intellisense",
+    "codezombiech.gitignore",
+    "donjayamanne.githistory",
+    "DotJoshJohnson.xml",
+    "eamodio.gitlens",
+    "eg2.vscode-npm-script",
+    "formulahendry.auto-close-tag",
+    "hbenl.vscode-firefox-debug",
+    "HookyQR.beautify",
+    "humao.rest-client",
+    "joelday.docthis",
+    "mkloubert.vs-cron",
+    "mkloubert.vs-deploy",
+    "mkloubert.vs-remote-debugger",
+    "mkloubert.vs-rest-api",
+    "mkloubert.vs-script-commands",
+    "msjsdiag.debugger-for-chrome",
+    "nwallace.createGUID",
+    "PeterJausovec.vscode-docker",
+    "robertohuertasm.vscode-icons",
+    "Tyriar.lorem-ipsum"
+  ]
+}

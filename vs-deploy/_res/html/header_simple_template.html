@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style type="text/css">
+
+${vsDeploy-css}
+
+        </style>
+
+        <script type="text/javascript">
+
+var vsDeployTemp;
+
+        </script>
+
+        <style type="text/css">
+
+${vsDeploy-highlightjs-CSS-default}
+
+        </style>
+
+        <style type="text/css">
+
+#vsdeploy-code {
+    background-color: transparent !important;
+}
+
+        </style>
+
+        <style type="text/css">
+
+${vsDeploy-highlightjs-CSS}
+
+        </style>
+
+        <!-- highlight.js -->
+        <script type="text/javascript">
+
+vsDeployTemp = ${vsDeploy-highlightjs};
+eval(window.atob(vsDeployTemp));
+
+        </script>
+
+        <!-- jQuery -->
+        <script type="text/javascript">
+
+vsDeployTemp = ${vsDeploy-jQuery};
+eval(window.atob(vsDeployTemp));
+
+        </script>
+
+        <!-- custom script -->
+        <script type="text/javascript">
+
+vsDeployTemp = ${vsDeploy-script};
+eval(window.atob(vsDeployTemp));
+
+        </script>
+    </head>
+
+    <body>
+${vsDeploy-header}
+        <pre><code id="vsdeploy-code"></code></pre>
+
