@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "mi7keALBIV7hMYC4hqbnr5UOJDarT80JHeHSegEChHZtn8fDoCCb0gC/RyQb5TR7YJ2SkVyQgYve7yHS84FKUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\otek\\OneDrive\\Documents\\Coding\\forks-of-stuff-i-like\\antlr4-c3\\ports\\c#\\src\\Antlr4CodeCompletion.Core\\Antlr4CodeCompletion.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\otek\\.nuget\\packages\\antlr4\\4.6.6\\antlr4.4.6.6.nupkg.sha512",
+    "C:\\Users\\otek\\.nuget\\packages\\antlr4.codegenerator\\4.6.6\\antlr4.codegenerator.4.6.6.nupkg.sha512",
+    "C:\\Users\\otek\\.nuget\\packages\\antlr4.runtime\\4.6.6\\antlr4.runtime.4.6.6.nupkg.sha512",
+    "C:\\Users\\otek\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\otek\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

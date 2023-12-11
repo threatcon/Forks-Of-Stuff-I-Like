@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Antlr4CodeCompletion.Core
+build_property.ProjectDir = C:\Users\otek\OneDrive\Documents\Coding\forks-of-stuff-i-like\antlr4-c3\ports\c#\src\Antlr4CodeCompletion.Core\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
